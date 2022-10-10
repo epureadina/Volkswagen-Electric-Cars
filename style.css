@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-Black.ttf) format(truetype);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-BlackItalic.ttf) format(truetype);
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-Bold.ttf) format(truetype);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-BoldItalic.ttf) format(truetype);
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-Medium.ttf) format(truetype);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-MediumItalic.ttf) format(truetype);
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-Light.ttf) format(truetype);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-LightItalic.ttf) format(truetype);
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-Thin.ttf) format(truetype);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./roboto-font/Roboto-ThinItalic.ttf) format(truetype);
+  font-weight: 100;
+  font-style: italic;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #1f2937;
+  padding: 15px 120px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.logo-and-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-left: 10px;
+}
+.logo-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin: 0;
+  color: #f9faf8;
+}
+.header-description {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px;
+}
+.header-text {
+  margin-left: 40px;
+  padding-right: 10px;
+}
+.main-text {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.secondary-text {
+  margin: 3px 0px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.header-btn {
+  background-color: #3882f6;
+  border-radius: 5px;
+  border-color: #3882f6;
+  color: #f9faf8;
+  font-size: 12px;
+  cursor: pointer;
+  width: 90px;
+  height: 25px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+.title-inf {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
+}
+.cars {
+  display: flex;
+  margin: 0px 280px;
+  justify-content: space-between;
+}
+.car {
+  margin: 0px;
+  margin-bottom: 100px;
+  width: 200px;
+  height: 200px;
+}
+.car-img {
+  border: solid 2px #3882f6;
+  border-radius: 10%;
+  width: 200px;
+  height: 150px;
+}
+dt {
+  font-weight: 700;
+  font-size: 12px;
+}
+dd {
+  font-size: 12px;
+  font-weight: 400;
+}
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 100px 250px;
+  margin: 0px;
+}
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+.quote-author {
+  text-align: right;
+  padding-right: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 40px;
+}
+.action {
+  margin: 80px 200px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 30px 140px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.action-info {
+  align-self: flex-start;
+}
+.action-btn {
+  background-color: #3882f6;
+  border: solid 2px #e5e7eb;
+  color: #f9faf8;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 150px;
+  height: 25px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 80px;
+}
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: #f9faf8;
+  padding: 20px;
+  font-weight: 400;
+}
+.header-imgs {
+  display: flex;
+}
+.img1 {
+  align-self: center;
+}
+.img4 {
+  align-self: center;
+}
+.model-car {
+  font-size: 24px;
+}
+.model-section-one {
+  margin-top: 60px;
+  margin-left: 50px;
+  display: flex;
+}
+.car-one-imgs {
+  margin: 46px 0px;
+}
+.model-link {
+  color: black;
+}
+li {
+  margin: 40px;
+}
+.top-link {
+  color: #1f2937;
+  margin: 60px;
+}
+.description-inf {
+  font-size: 20px;
+}
+.charges {
+  margin: 50px 200px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.charge {
+  padding: 10px 20px;
+  border: solid 2px #3882f6;
+  border-radius: 10px;
+}
+.charge-inf {
+  margin-bottom: 50px;
+}
+.charge-app {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+}
+.env-inf {
+  margin: 100px;
+  font-size: 24px;
+}
+label,
+input,
+textarea {
+  margin-left: 80px;
+}
+#checkbox {
+  margin-left: 0px;
+}
