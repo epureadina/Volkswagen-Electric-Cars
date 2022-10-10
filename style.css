@@ -99,7 +99,6 @@ header {
   padding: 100px;
 }
 .header-text {
-  margin-left: 40px;
   padding-right: 10px;
 }
 .main-text {
@@ -159,13 +158,14 @@ dd {
 .quote {
   background-color: #e5e7eb;
   color: #1f2937;
-  padding: 100px 250px;
+  padding: 100px 280px;
   margin: 0px;
 }
 blockquote {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+  margin: 0px;
 }
 .quote-author {
   text-align: right;
@@ -175,10 +175,10 @@ blockquote {
   margin-right: 40px;
 }
 .action {
-  margin: 80px 200px;
+  margin: 100px 150px;
   background-color: #3882f6;
   color: #f9faf8;
-  padding: 30px 140px;
+  padding: 30px 130px;
   border-radius: 5px;
   display: flex;
   align-items: center;
