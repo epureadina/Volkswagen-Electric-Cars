@@ -252,8 +252,10 @@ footer {
   display: flex;
 }
 .env-inf {
-  margin: 100px;
+  padding: 100px;
   font-size: 24px;
+  background-color: #e5e7eb;
+  margin-top: 100px;
 }
 label,
 input,
